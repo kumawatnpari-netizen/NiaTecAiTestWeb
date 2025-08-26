@@ -275,12 +275,12 @@ const keywordGroups = {
     "Hello My name is",
     "Hello Mera naam",
   ],
-  // me: [
-  //   "im parikshit",
-  //   "pari",
-  //   "me parikshit kumawat",
-  //   "me pari",
-  // ],
+  np: [
+    "Neha",
+    "Im Neha",
+    "im pari",
+    "me pari",
+  ],
 
 }
 
@@ -292,8 +292,11 @@ function getBotResponse(userMessage) {
   for (const [key, keywords] of Object.entries(keywordGroups)) {
     for (const word of keywords) {
       if (message.includes(word)) {
-        if (key === "hello") {
+        if (key === "np") {
           return "Hi! 👋 Welcome to NiaTec. How can I assist you today?"
+        }
+          if (key === "hello") {
+          return "Hello parikshit sir ki Madam ji!"
         }
       }
     }
