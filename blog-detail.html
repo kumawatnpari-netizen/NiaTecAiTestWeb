@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Title - NiaTec</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Blog Detail Specific Styles */
+        .blog-detail {
+            padding: 100px 0 60px;
+            background: linear-gradient(135deg, #000000 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+        }
+
+        .blog-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .blog-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .blog-title {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .blog-meta {
+            color: #a0aec0;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        .blog-featured-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .blog-content {
+            color: #e2e8f0;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .blog-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-content h2, 
+        .blog-content h3 {
+            color: #fff;
+            margin: 2.5rem 0 1.5rem;
+        }
+
+        .blog-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .back-to-blog {
+            display: inline-block;
+            margin-top: 3rem;
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .back-to-blog:hover {
+            color: #60a5fa;
+        }
+
+        @media (max-width: 768px) {
+            .blog-title {
+                font-size: 2rem;
+            }
+            
+            .blog-content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="/assets/Logo/NiaTec Logo Png.png" alt="NiaTec Logo">
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <div class="nav-item dropdown">
+                    <a href="index.html#products" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="index.html#products">SmartSanchalan</a>
+                        <a href="index.html#products">InterviewMate</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="index.html#capabilities" class="nav-link">Capabilities <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="index.html#capabilities">AI & ML Solutions</a>
+                        <a href="index.html#capabilities">NLP & Chatbots</a>
+                        <a href="index.html#capabilities">OCR & PDF Automation</a>
+                        <a href="index.html#capabilities">Software Development</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="index.html#industries" class="nav-link">Industries <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="index.html#industries">FinTech</a>
+                        <a href="index.html#industries">EdTech</a>
+                    </div>
+                </div>
+                <a href="index.html#enterprise" class="nav-link">Enterprise</a>
+                <a href="index.html#about" class="nav-link">About Us</a>
+                <a href="index.html#contact" class="nav-btn">Contact Us</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Detail Content -->
+    <article class="blog-detail">
+        <div class="blog-container">
+            <header class="blog-header">
+                <h1 class="blog-title" id="blog-title">The Future of AI in Business</h1>
+                <div class="blog-meta">
+                    <span>By <span id="blog-author">John Doe</span></span> • 
+                    <span id="blog-date">August 26, 2025</span>
+                </div>
+                <img src="/assets/Blog post img/1.jpeg" alt="Blog Featured Image" class="blog-featured-image" id="blog-image">
+            </header>
+            
+            <div class="blog-content" id="blog-content">
+                <!-- Content will be dynamically inserted here -->
+            </div>
+
+            <a href="index.html#blog" class="back-to-blog">
+                <i class="fas fa-arrow-left"></i> Back to all articles
+            </a>
+        </div>
+    </article>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/assets/Logo/NiaTec Logo Png.png" alt="NiaTec Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="index.html#products">Products</a>
+                    <a href="index.html#capabilities">Capabilities</a>
+                    <a href="index.html#industries">Industries</a>
+                    <a href="index.html#about">About Us</a>
+                    <a href="index.html#contact">Contact</a>
+                    <a href="blog-detail.html">Blog</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/niatec_ai" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/niatec.ai/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NiaTec. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // Get blog ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const blogId = urlParams.get('id');
+
+        // Sample blog data (in a real app, this would come from a database)
+        const blogs = {
+            'ai-future': {
+                title: 'The Future of AI in Business',
+                author: 'John Doe',
+                date: 'August 26, 2025',
+                image: '/assets/Blog post img/1.jpeg',
+                content: `
+                    <p>Artificial Intelligence is transforming the way businesses operate, offering unprecedented opportunities for growth and efficiency. In this article, we explore the key trends shaping the future of AI in the business world.</p>
+                    
+                    <h2>The Rise of AI-Powered Automation</h2>
+                    <p>One of the most significant impacts of AI has been in the realm of automation. Businesses are leveraging AI to automate repetitive tasks, reducing human error and increasing productivity. From customer service chatbots to automated data analysis, AI is changing the way we work.</p>
+                    
+                    <p>For example, in the financial sector, AI algorithms can analyze vast amounts of transaction data in real-time, detecting fraudulent activities with greater accuracy than human analysts. This not only improves security but also saves companies millions in potential losses.</p>
+                    
+                    <h2>Enhancing Customer Experiences</h2>
+                    <p>AI is revolutionizing customer service through personalized experiences. Machine learning algorithms analyze customer behavior and preferences to deliver tailored recommendations and support. This level of personalization was unimaginable just a few years ago.</p>
+                    
+                    <p>E-commerce platforms are particularly benefiting from this technology, with AI-powered recommendation engines driving significant increases in sales and customer satisfaction.</p>
+                    
+                    <h2>Challenges and Considerations</h2>
+                    <p>While the potential of AI is immense, businesses must also consider the ethical implications and challenges. Issues around data privacy, algorithmic bias, and job displacement require careful consideration and responsible implementation.</p>
+                    
+                    <p>As we move forward, the businesses that will thrive are those that can successfully integrate AI while maintaining a human-centric approach to technology.</p>
+                `
+            },
+            'machine-learning': {
+                title: 'Machine Learning for Beginners',
+                author: 'Jane Smith',
+                date: 'August 20, 2025',
+                image: '/assets/Blog post img/2.jpeg',
+                content: `
+                    <p>Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. This article provides a beginner-friendly introduction to this exciting field.</p>
+                    
+                    <h2>Understanding the Basics</h2>
+                    <p>At its core, machine learning involves training algorithms on data to make predictions or decisions. The more data the algorithm processes, the better it becomes at making accurate predictions.</p>
+                    
+                    <p>There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning, each with its own applications and use cases.</p>
+                `
+            },
+            'chatbots': {
+                title: 'The Evolution of Chatbots',
+                author: 'Alex Johnson',
+                date: 'August 15, 2025',
+                image: '/assets/Blog post img/3.png',
+                content: `
+                    <p>Chatbots have come a long way from simple rule-based systems to sophisticated AI-powered assistants. This article traces their evolution and explores what the future holds for conversational AI.</p>
+                    
+                    <h2>From ELIZA to GPT-4</h2>
+                    <p>The journey of chatbots began in the 1960s with ELIZA, a simple pattern-matching program. Today, we have advanced models like GPT-4 that can engage in human-like conversations.</p>
+                `
+            }
+        };
+
+        // Display the requested blog
+        function displayBlog() {
+            const blog = blogs[blogId] || blogs['ai-future']; // Default to first blog if ID not found
+            
+            document.getElementById('blog-title').textContent = blog.title;
+            document.getElementById('blog-author').textContent = blog.author;
+            document.getElementById('blog-date').textContent = blog.date;
+            document.getElementById('blog-image').src = blog.image;
+            document.getElementById('blog-content').innerHTML = blog.content;
+            
+            // Update page title
+            document.title = `${blog.title} | NiaTec Blog`;
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', displayBlog);
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
