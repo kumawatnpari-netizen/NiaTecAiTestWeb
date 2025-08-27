@@ -292,10 +292,10 @@ function getBotResponse(userMessage) {
   for (const [key, keywords] of Object.entries(keywordGroups)) {
     for (const word of keywords) {
       if (message.includes(word)) {
-        if (key === "np") {
+        if (key === "hello") {
           return "Hi! 👋 Welcome to NiaTec. How can I assist you today?"
         }
-          if (key === "hello") {
+          if (key === "np") {
           return "Hello parikshit sir ki Madam ji!"
         }
       }
