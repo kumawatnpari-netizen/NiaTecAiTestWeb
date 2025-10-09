@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="NiaTec provides AI automation, chatbot and SaaS solutions to help Indian businesses grow faster.">
+    <meta name="keywords" content="AI solutions India, AI automation, AI software agency, NiaTec, business automation">
+    <title>Blog - NiaTec</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/android-chrome-512x512.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png"> -->
+    <link rel="manifest" href="Favicon/site.webmanifest">
+    <style>
+        /* Blog Detail Specific Styles */
+        .blog-detail {
+            padding: 100px 0 60px;
+            background: linear-gradient(135deg, #000000 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+        }
+
+        .blog-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .blog-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .blog-title {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .blog-meta {
+            color: #a0aec0;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        .blog-featured-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .blog-content {
+            color: #e2e8f0;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .blog-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-content h2,
+        .blog-content h3 {
+            color: #fff;
+            margin: 2.5rem 0 1.5rem;
+        }
+
+        .blog-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .back-to-blog {
+            display: inline-block;
+            margin-top: 3rem;
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .back-to-blog:hover {
+            color: #60a5fa;
+        }
+
+        @media (max-width: 768px) {
+            .blog-title {
+                font-size: 2rem;
+            }
+
+            .blog-content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/index.html">
+                    <img src="/assets/Logo/NiaTec Logo Png.png" alt="NiaTec Logo">
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <div class="nav-item dropdown">
+                    <a href="/our-work.html" class="nav-link">Products <!--<i class="fas fa-chevron-down"></i>--></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#products">SmartSanchalan</a>
+                        <a href="#products">InterviewMate</a>
+                    </div> -->
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="/index.html#capabilities" class="nav-link">Capabilities <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="/index.html#capabilities">AI & ML Solutions</a>
+                        <a href="/index.html#capabilities">NLP & Chatbots</a>
+                        <a href="/index.html#capabilities">OCR & PDF Automation</a>
+                        <a href="/index.html#capabilities">Software Development</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="/index.html#industries" class="nav-link">Industries <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="/index.html#industries">Retail & <br> E-commerce</br></a>
+                        <a href="/index.html#industries">Fashion & Lifestyle</a>
+                        <a href="/index.html#industries">Healthcare & Pharma</a>
+                        <a href="/index.html#industries">Education & EdTech</a>
+                        <a href="/index.html#industries">Finance & Banking</a>
+                    </div>
+                </div>
+                <a href="/index.html#enterprise" class="nav-link">Enterprise</a>
+                <a href="/index.html#about" class="nav-link">About Us</a>
+                <a href="/index.html#contact" class="nav-btn">Contact Us</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Detail Content -->
+    <article class="blog-detail">
+        <div class="blog-container">
+            <header class="blog-header">
+                <h1 class="blog-title" id="blog-title">The Future of AI in Business</h1>
+                <div class="blog-meta">
+                    <span>By <span id="blog-author">Rahul</span></span> •
+                    <span id="blog-date">August 26, 2025</span>
+                </div>
+                <img src="/assets/Blog post img/2.jpeg" alt="Blog Featured Image" class="blog-featured-image"
+                    id="blog-image">
+            </header>
+
+            <div class="blog-content" id="blog-content">
+                <!-- Content will be dynamically inserted here -->
+            </div>
+
+            <a href="/index.html#blog" class="back-to-blog">
+                <i class="fas fa-arrow-left"></i> Back to all articles
+            </a>
+        </div>
+    </article>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/assets/Logo/NiaTec Logo Png.png" alt="NiaTec Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="index.html#products">Products</a>
+                    <a href="index.html#capabilities">Capabilities</a>
+                    <a href="index.html#industries">Industries</a>
+                    <a href="index.html#about">About Us</a>
+                    <a href="index.html#contact">Contact</a>
+                    <a href="blog-detail.html">Blog</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/niatec_ai" aria-label="Twitter" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/niatec.ai/" aria-label="Instagram" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NiaTec. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // Get blog ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const blogId = urlParams.get('id');
+
+        // Sample blog data (in a real app, this would come from a database)
+        const blogs = {
+            'ai-future': {
+                title: 'The Future of AI in Business',
+                author: 'Rahul',
+                date: 'August 26, 2025',
+                image: '/assets/Blog post img/2.jpeg',
+                content: `
+                    <p>
+        Artificial Intelligence (AI) is no longer a futuristic idea — it’s the foundation of how modern Indian businesses are transforming in 2025.
+        From automating repetitive tasks to improving customer experience and data-driven decision-making, AI is reshaping how companies grow and compete.
+      </p>
+       <p>
+        According to NASSCOM, the <strong>Indian AI market is projected to reach $17 billion by 2027</strong>, and thousands of startups and enterprises are already investing in AI automation and analytics to stay ahead.
+      </p>
+      <p>
+        At <a href="/index.html#contact" target="_blank" style = "color:#fff;"><strong>NiaTec</strong></a>, we help businesses of all sizes harness the real power of AI to boost efficiency, cut costs, and unlock new opportunities.
+      </p>
+                    <h2>1. Why AI is the Future for Indian Businesses</h2> 
+                    <p>
+        India’s business environment is evolving fast — and so are customer expectations. AI enables companies to become <strong>faster, smarter, and more customer-centric</strong>.
+      </p>
+      <p>Here’s how AI is helping Indian businesses grow :</p>
+        <p><strong>Automation:</strong> Replaces manual work with intelligent automation systems.</p>
+        <p><strong>Personalization:</strong> Helps businesses understand customers better using data.</p>
+        <p><strong>Cost Efficiency:</strong> Reduces human error and operational costs.</p>
+        <p><strong>Smart Decisions:</strong> Machine learning algorithms analyze data and give insights in seconds.</p>
+        <p><strong>Scalability:</strong> AI systems grow with your business, adapting to changes easily.</p>
+      <p>
+        Businesses that invest in <strong>AI software solutions</strong> are seeing up to <strong>40% higher productivity</strong> compared to traditional setups.
+      </p>
+      <p>
+        If you’re running a business and want to explore automation opportunities, check out
+        <a href="/index.html#contact" target="_blank" style = "color:#fff;"><strong>NiaTec’s AI Solutions</strong></a>
+        to learn how we can help.
+      </p>
+
+    <h2>2. Key Industries Being Transformed by AI in India</h2>
+      <p>AI is not limited to tech companies anymore — it’s redefining every major industry.</p>
+
+      <h3>a. Retail & E-commerce</h3>
+      <p>
+        AI helps online stores provide personalized product recommendations, manage inventory efficiently, and analyze consumer behavior.
+        Platforms like Amazon and Flipkart already use AI-based engines to predict what customers want before they even search for it.
+      </p>
+
+      <h3>b. Healthcare</h3>
+      <p>
+        From AI-powered diagnostic tools to predictive health analytics, Indian hospitals are leveraging artificial intelligence to save lives and improve patient experiences.
+      </p>
+
+      <h3>c. Banking & Finance</h3>
+      <p>
+        Banks use AI chatbots, fraud detection systems, and automated credit scoring models to offer faster, safer, and smarter services to customers.
+      </p>
+
+      <h3>d. Real Estate & Manufacturing</h3>
+      <p>
+        In real estate, AI helps in lead qualification and price prediction, while manufacturing industries use predictive maintenance and automation to reduce downtime.
+      </p>
+      <p>These industries show how <strong>AI is becoming a necessity, not a luxury</strong>, for sustainable growth in India.</p>
+
+
+      <h2>3. Challenges and Opportunities Ahead</h2>
+      <p>
+        While adoption is growing, many Indian businesses still face challenges like lack of AI expertise, unclear ROI, or outdated systems.
+      </p>
+      <p>
+        That’s where <a href="/index.html" target="_blank" style = "color:#fff;"><strong>NiaTec</strong></a> bridges the gap — by offering
+        <strong>custom-built AI software</strong> and <strong>automation solutions</strong> that fit your unique business goals.
+      </p>
+      <p>
+        We don’t believe in one-size-fits-all AI tools. Instead, we build <strong>smart, data-driven, and easy-to-implement AI systems</strong> designed for Indian business models — whether you’re a startup, MSME, or enterprise.
+      </p>
+
+
+      <h2>4. The Future: AI-Driven India</h2>
+      <p>
+        By 2030, AI could contribute <strong>over $500 billion</strong> to India’s GDP, according to McKinsey reports. That’s a massive opportunity for early adopters.
+      </p>
+      <p>
+        The future Indian business will not rely on guesswork — it will rely on <strong>data, prediction, and automation</strong>.
+        Companies that start now will be the ones leading tomorrow.
+      </p>
+      <p>
+        And that’s where <strong>NiaTec</strong> comes in — helping you build the future, today.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        AI is not just a trend — it’s the next big business revolution. Indian companies that understand and adopt AI early will dominate their industries with automation, innovation, and customer-first strategies.
+      </p>
+      <p>
+        If your business wants to explore how <strong>AI automation, chatbots, and custom AI software</strong> can help you grow —
+        👉 <a href="/index.html" target="_blank" style = "color:#fff;"><strong>Contact NiaTec today</strong></a> to discuss your goals and get a personalized AI strategy.
+      </p>`
+            },
+        };
+
+        // Display the requested blog
+        function displayBlog() {
+            const blog = blogs[blogId] || blogs['ai-future']; // Default to first blog if ID not found
+
+            document.getElementById('blog-title').textContent = blog.title;
+            document.getElementById('blog-author').textContent = blog.author;
+            document.getElementById('blog-date').textContent = blog.date;
+            document.getElementById('blog-image').src = blog.image;
+            document.getElementById('blog-content').innerHTML = blog.content;
+
+            // Update page title
+            document.title = `${blog.title} | NiaTec Blog`;
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', displayBlog);
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
